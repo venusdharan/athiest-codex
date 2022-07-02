@@ -13,17 +13,17 @@ module.exports = {
         navbar: [
             // nested group - max depth is 2
             {
-              text: 'Group',
+              text: 'Logic',
               children: [
                 {
-                  text: 'SubGroup',
-                  children: ['/group/sub/foo.md', '/group/sub/bar.md'],
+                  text: 'Fallacy',
+                  children: ['/logic/fallacy'],
                 },
               ],
             },
             // control when should the item be active
             {
-              text: 'Group 2',
+              text: 'philosophy',
               children: [
                 {
                   text: 'Always active',
@@ -39,6 +39,42 @@ module.exports = {
                   activeMatch: '^/foo/',
                 },
               ],
+            },
+            {
+                text: 'History',
+                children: [
+                  {
+                    text: 'Always active',
+                    link: '/',
+                    // this item will always be active
+                    activeMatch: '/',
+                  },
+                  {
+                    text: 'Active on /foo/',
+                    link: '/not-foo/',
+                    // this item will be active when current route path starts with /foo/
+                    // regular expression is supported
+                    activeMatch: '^/foo/',
+                  },
+                ],
+            },
+            {
+                text: 'Science',
+                children: [
+                  {
+                    text: 'Always active',
+                    link: '/',
+                    // this item will always be active
+                    activeMatch: '/',
+                  },
+                  {
+                    text: 'Active on /foo/',
+                    link: '/not-foo/',
+                    // this item will be active when current route path starts with /foo/
+                    // regular expression is supported
+                    activeMatch: '^/foo/',
+                  },
+                ],
             },
           ],
       }),
