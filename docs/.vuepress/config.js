@@ -10,6 +10,7 @@ module.exports = {
     theme: defaultTheme({
         // default theme config
         //home:"Athiest Codex",
+        contributors : false,
         navbar: [
             // nested group - max depth is 2
             {
@@ -25,19 +26,19 @@ module.exports = {
             {
               text: 'philosophy',
               children: [
+                
                 {
-                  text: 'Always active',
-                  link: '/',
-                  // this item will always be active
-                  activeMatch: '/',
+                  text: 'Crash course',
+                  link: '/philosophy/crashcourse',
                 },
                 {
-                  text: 'Active on /foo/',
-                  link: '/not-foo/',
-                  // this item will be active when current route path starts with /foo/
-                  // regular expression is supported
-                  activeMatch: '^/foo/',
+                  text: 'Ontological Arguments',
+                  link: '/philosophy/OntologicalArguments',
                 },
+                {
+                  text : 'Category Mistakes',
+                  link : '/philosophy/CategoryMistakes',
+                }
               ],
             },
             {
@@ -62,18 +63,9 @@ module.exports = {
                 text: 'Science',
                 children: [
                   {
-                    text: 'Always active',
-                    link: '/',
-                    // this item will always be active
-                    activeMatch: '/',
-                  },
-                  {
-                    text: 'Active on /foo/',
-                    link: '/not-foo/',
-                    // this item will be active when current route path starts with /foo/
-                    // regular expression is supported
-                    activeMatch: '^/foo/',
-                  },
+                    text : 'Tree Of Life',
+                    link : '/science/TreeOfLife',
+                  }
                 ],
             },
           ],

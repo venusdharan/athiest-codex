@@ -3,9 +3,9 @@ lang: en-US
 title: Title of this page
 description: Description of this page
 home: true
-heroImage: https://vuejs.org/images/logo.png
+heroImage: /images/Atheist_Circle_A.png
 actions:
-  - text: What is this
+  - text: About
     link: /guide/
     type: secondary
   - text: Copyright

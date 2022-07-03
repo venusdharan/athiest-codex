@@ -1,1 +1,2 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-X8evddpu7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# About
+This is an open collective repository by atheists for atheists. This is a curative list collected from various websites and other repositories.
