@@ -4,6 +4,7 @@ title: Title of this page
 description: Description of this page
 home: true
 heroImage: /images/Atheist_Circle_A.png
+heroImageDark : /images/output-onlinejpgtools.jpg
 actions:
   - text: About
     link: /guide/

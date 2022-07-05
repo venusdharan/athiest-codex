@@ -6,7 +6,7 @@ const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
 module.exports = {
     lang: 'en-US',
     title: 'Atheist Codex',
-    description: 'This is my first VuePress site',
+    description: 'Athiest Data Bank',
     theme: defaultTheme({
         // default theme config
         //home:"Athiest Codex",
@@ -38,6 +38,14 @@ module.exports = {
                 {
                   text : 'Category Mistakes',
                   link : '/philosophy/CategoryMistakes',
+                },
+                {
+                  text : 'Gish gallop',
+                  link : '/philosophy/Gishgallop',
+                },
+                {
+                  text : 'Quote Mining',
+                  link : '/philosophy/QuoteMining',
                 }
               ],
             },
